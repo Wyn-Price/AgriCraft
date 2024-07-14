@@ -2,6 +2,7 @@ package com.infinityraider.agricraft.proxy;
 
 import com.agricraft.agricore.core.AgriCore;
 import com.infinityraider.agricraft.AgriCraft;
+import com.infinityraider.agricraft.init.AgriCommands;
 import com.infinityraider.agricraft.core.CoreHandler;
 import com.infinityraider.agricraft.handler.GuiHandler;
 import com.infinityraider.agricraft.impl.v1.PluginHandler;

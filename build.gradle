@@ -31,10 +31,11 @@ minecraft {
 repositories {
     mavenLocal()
     mavenCentral()
-    maven {
-        name "TehNut Maven"
-        url "http://tehnut.info/maven"
-    }
+    maven { url "https://cursemaven.com" }
+    // maven {
+    //     name "TehNut Maven"
+    //     url "http://tehnut.info/maven"
+    // }
     maven {
         name "Tterrag Maven"
         url "http://maven.tterrag.com/"
@@ -51,10 +52,10 @@ repositories {
         name "OpenComputers"
         url  "http://maven.cil.li/"
     }
-    maven {
-        name "ActuallyAdditions"
-        url "https://maven.chaosfield.at/"
-    }
+    // maven {
+    //     name "ActuallyAdditions"
+    //     url "https://maven.chaosfield.at/"
+    // }
     maven {
         name "CodeChicken"
         url "http://chickenbones.net/maven/"
@@ -93,7 +94,8 @@ dependencies {
     runtime "mezz.jei:jei_1.12.2:4.11.0.212"
     deobfCompile "com.azanor.baubles:Baubles:1.12-1.5.2"
     deobfCompile "vazkii.botania:Botania:r1.10-353"
-    deobfCompile "de.ellpeck.actuallyadditions:ActuallyAdditions:1.12.2-r136"
+    deobfCompile "curse.maven:actuallyadditions-228404:2581536"
+    // deobfCompile "de.ellpeck.actuallyadditions:ActuallyAdditions:1.12.2-r136"
     deobfCompile "li.cil.oc:OpenComputers:MC1.12.2-1.7.1.63"
     //deobfCompile ("codechicken:CodeChickenLib:1.12.2-3.2.0.+:deobf") { transitive = false }
     //deobfCompile ("codechicken:EnderStorage:1.12.2-2.4.4.+:deobf") { transitive = false }
